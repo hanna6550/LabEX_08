@@ -22,11 +22,11 @@ function divideNo() {
 
         const result = performDivision(no1, no2);
 
-    res.innerHTML = result;
+        res.innerHTML = result;
       
-      } catch (Exception) {
+      } catch (error) {
       
-        res.innerHTML = "error";
+        res.innerHTML = error;
       
       }
 
