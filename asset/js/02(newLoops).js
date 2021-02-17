@@ -14,9 +14,11 @@ function forINLoop() {
 
     // 1. Create a for in loop that iterate over the student object
 
-
     // 2. Inside the loop paint the UI [Use the Format Given Below]
 
+    for (key in student) {
+        forInLoop.innerHTML += `<li class="list-group-item">${key} : ${student[key]}</li>`;
+    }
 
     //Use this Format 
 
@@ -39,6 +41,9 @@ function forOFLoop() {
 
     // 2. Inside the loop paint the UI [Use the Format Given Below]
 
+    for (element of students) {
+        forOfLoop.innerHTML +=  `<li class="list-group-item" >Name : ${element.name}</li>`;
+    }
 
     //Use this Format 
 

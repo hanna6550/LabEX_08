@@ -18,7 +18,7 @@ function displaySymbol() {
     const id = Symbol("debugging string");
 
     //2. Display the symbol on ui as string using toString()
-    symbolResult.innerHTML = "id.toString()";
+    symbolResult.innerHTML = id.toString();
 
 }
 
